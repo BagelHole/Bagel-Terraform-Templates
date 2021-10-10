@@ -5,7 +5,7 @@ This site will be public and accessible at the IP address that is created. If yo
 must be done with your domain provider like [Google Domains](https://domains.google/).
 
 ## Cloud Build Trigger
-This code is used by creating a trigger that will execute a cloud build YAML file that is inside your GitHub Repository. This trigger will run a Cloud Build when someone pushes to your linked GitHub Repo. This YAML should have the gsutil commands needed to upload your website to the needed bucket. 
+This code creates a trigger that will execute a cloud build YAML file that is inside your GitHub Repository. This trigger will run a Cloud Build when someone pushes to your linked GitHub Repo. This YAML should have the gsutil commands needed to upload your website to the needed bucket. 
 
 ### Link to YAML file that deploys React.JS website to bucket
 - [YAML CLoud Build for React.JS App](https://github.com/BagelHole/Bagel-YAML-Templates/tree/main/Bagel-YAML-GCP-Deploy-ReactJS)
