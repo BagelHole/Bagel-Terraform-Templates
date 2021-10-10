@@ -10,6 +10,10 @@ This code is used by creating a trigger that will execute a cloud build YAML fil
 ### Link to YAML file that deploys React.JS website to bucket
 - [YAML CLoud Build for React.JS App]()
 
+### Connect GitHub Repository to GCP
+- In GCP go to Cloud Build, and then to Triggers. 
+- Click on Manage Repositories and add your GitHub Repo 
+
 ## Terraform install
 If this is your first time using Terraform you will need to install it. [Link to install Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli).
 
@@ -21,6 +25,9 @@ If this is your first time using Terraform you will need to install it. [Link to
 - Add your Terraform service account as a verified owner to the domain. (this is needed for the website bucket that is created to have the same name as your domain) 
 
 **note**: You could probably get around the Webmaster Central step if you do not want to name website bucket the same name as your domain. This might require some digging in the code. Not sure if this would work.
+
+## Google Cloud APIs 
+You will need to enable different APIs depending on what Terraform resources you are using. With none enabled you can run the terraform code, it will safely error out and tell you which APIs you need enabled. You can add these manually in GCP or it can be done programmatically through Terraform. 
 
 ## Before first run
 - Run command below in terminal to provide authentication credentials to your application code by setting the environment variable.
@@ -66,7 +73,7 @@ variable "name" {
 }
 
 variable "github_owner" {
-  description = "The owner/orginzation of the GitHub Repo. For example in https://github.com/BagelHole/TobyCS-core-app the owner is BagelHole."
+  description = "The owner/organization of the GitHub Repo. For example in https://github.com/BagelHole/TobyCS-core-app the owner is BagelHole."
   type = string
   default = "your_github_owner"
 }
