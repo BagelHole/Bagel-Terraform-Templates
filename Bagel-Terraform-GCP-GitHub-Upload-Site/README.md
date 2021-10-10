@@ -96,14 +96,14 @@ variable "region_specific" {
   default     = "us-west2"
 }
 
-````
+```
 Run the below commands in terminal from your source Terraform folder:
-````bash
+```bash
 terraform init
 terraform plan
 terraform apply
-````
-Terraform plan is less needed because ````terraform apply```` shows a plan before you apply.
+```
+Terraform plan is less needed because ```terraform apply``` shows a plan before you apply.
 
 
 ## DNS & SSL Cert
