@@ -103,7 +103,7 @@ terraform init
 terraform plan
 terraform apply
 ````
-Terraform plan is less needed because 'terraform apply' shows a plan before you apply.
+Terraform plan is less needed because ````terraform apply```` shows a plan before you apply.
 
 
 ## DNS & SSL Cert
