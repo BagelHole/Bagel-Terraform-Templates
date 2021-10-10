@@ -27,7 +27,7 @@ If this is your first time using Terraform you will need to install it. [Link to
 **note**: You could probably get around the Webmaster Central step if you do not want to name website bucket the same name as your domain. This might require some digging in the code. Not sure if this would work.
 
 ## Google Cloud APIs 
-You will need to enable different APIs depending on what Terraform resources you are using. With none enabled you can run the terraform code, it will safely error out and tell you which APIs you need enabled. You can add these manually in GCP or it can be done programmatically through Terraform. 
+You will need to enable different APIs depending on what Terraform resources you are using. With no APIs enabled you can run the terraform code, it will safely error out and tell you which APIs you need enabled. You can add these manually in GCP or it can be done programmatically through Terraform. 
 - [Terraform for Enabling API](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/google_project_service)
 
 ### APIs needed for this code:
