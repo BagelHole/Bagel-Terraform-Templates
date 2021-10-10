@@ -28,6 +28,13 @@ If this is your first time using Terraform you will need to install it. [Link to
 
 ## Google Cloud APIs 
 You will need to enable different APIs depending on what Terraform resources you are using. With none enabled you can run the terraform code, it will safely error out and tell you which APIs you need enabled. You can add these manually in GCP or it can be done programmatically through Terraform. 
+- [Terraform for Enabling API](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/google_project_service)
+
+### APIs needed for this code:
+- Compute Engine
+- Cloud Build
+- Cloud Resource Manager
+- Cloud Storage
 
 ## Before first run
 - Run command below in terminal to provide authentication credentials to your application code by setting the environment variable.
