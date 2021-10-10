@@ -9,6 +9,9 @@ If this is your first time using Terraform you will need to install it. [Link to
 - [Google Cloud Platform Upload Site from Folder](https://github.com/BagelHole/Bagel-Terraform-Templates/tree/main/Bagel-Terraform-GCP-UploadSiteFromFolder)
 - [Google Cloud Platform Upload Site from GitHub](https://github.com/BagelHole/Bagel-Terraform-Templates/tree/main/Bagel-Terraform-GCP-GitHub-Upload-Site)
 
+### Amazon Web Services 
+- :closed_book: Work In Progress 
+
 ## Helpful Resources in Learning Terraform
 - Hashicorp offers their own tutorials which can be found [here](https://learn.hashicorp.com/terraform).
 - [Terraform explained in 15mins](https://www.youtube.com/watch?v=l5k1ai_GBDE) - a great video on the basics
