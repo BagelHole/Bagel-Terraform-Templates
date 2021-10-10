@@ -8,7 +8,7 @@ must be done with your domain provider like [Google Domains](https://domains.goo
 This code is used by creating a trigger that will execute a cloud build YAML file that is inside your GitHub Repository. This YAML should have the gsutil commands needed to upload your website to the needed bucket. 
 
 ### Link to YAML file that deploys React.JS website to bucket
-- [YAML CLoud Build for React.JS App]()
+- [YAML CLoud Build for React.JS App](https://github.com/BagelHole/Bagel-YAML-Templates/tree/main/Bagel-YAML-GCP-Deploy-ReactJS)
 
 ### Connect GitHub Repository to GCP
 - In GCP go to Cloud Build, and then to Triggers. 
