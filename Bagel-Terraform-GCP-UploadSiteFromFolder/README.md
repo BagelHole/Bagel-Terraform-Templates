@@ -84,9 +84,6 @@ terraform apply
 ````
 Terraform plan is less needed because 'terraform apply' shows a plan before you apply.
 
-### Bugs
-- You may have to run terraform apply twice if you get a DNS creation error. This is an error with the provider which means it is on Googles side I believe. 
-
 
 ## DNS & SSL Cert
 The Google Created SSL Cert for HTTPS can take a bit of time to create (15min-1hour)

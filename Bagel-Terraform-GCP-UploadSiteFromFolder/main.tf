@@ -138,24 +138,6 @@ resource "google_compute_managed_ssl_certificate" "certificate" {
   }
 }
 
-# Create a DNS record to point to registered Google Domain
-resource "google_dns_managed_zone" "parent-zone" {
-  provider    = google-beta
-  name        = "${var.name}-site-dns"
-  dns_name    = var.website_domain_name 
-  description = "DNS record for ${var.website_domain_name}"
-}
-
-# This can cause a provider bug in creating the DNS records. If you run 'terraform apply' twice it will work.
-resource "google_dns_record_set" "resource-recordset" {
-  provider     = google-beta
-  managed_zone = google_dns_managed_zone.parent-zone.name
-  name         = "www.${var.website_domain_name}." //variable
-  type         = "A"
-  rrdatas      = ["10.0.0.1", "10.1.0.1",google_compute_global_address.default.address]
-  ttl          = 3600
-}
-
 # Create url map, forwarding rule, and proxy for HTTPS version of the site - Load Balacing
 resource "google_compute_url_map" "com-url-map" { 
   project     = var.project
