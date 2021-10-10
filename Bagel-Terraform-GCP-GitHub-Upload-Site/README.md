@@ -1,16 +1,17 @@
-# Google Cloud Platform Upload Site from Folder
+# Google Cloud Platform Upload Site from GitHub
 
-This Terraform code is for uploading a website's source code to a GCP bucket with HTTP(s) load balancing from a local folder. 
+This Terraform code is for uploading a website's source code to a GCP bucket with HTTP(s) load balancing from a GitHub connected Repository. 
 This site will be public and accessible at the IP address that is created. If you want to connect your domain to the IP that
 must be done with your domain provider like [Google Domains](https://domains.google/).
 
+## Cloud Build Trigger
+This code is used by creating a trigger that will execute a cloud build YAML file that is inside your GitHub Repository. This YAML should have the gsutil commands needed to upload your website to the needed bucket. 
+
+### Link to YAML file that deploys React.JS website to bucket
+- [YAML CLoud Build for React.JS App]()
+
 ## Terraform install
 If this is your first time using Terraform you will need to install it. [Link to install Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli).
-
-## gsutil install
-gsutil is used in this terraform code to upload files from your local machine to the cloud storage. It must be installed to correctly work.
-The following link can help with install of gsutil: 
-[Install gsutil](https://cloud.google.com/storage/docs/gsutil_install#macos)
 
 ## GCP Service Account
 - Create a Terraform service account in your Google Cloud Platform project. 
