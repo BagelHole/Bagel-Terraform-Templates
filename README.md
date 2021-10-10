@@ -1,5 +1,5 @@
 # Bagel-Terraform-Templates
-This is a collection of Terraform Templates & Resources created by Toby Miller.
+This is a collection of Terraform Templates & Resources.
 
 ## Terraform install
 If this is your first time using Terraform you will need to install it. [Link to install Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli). 
