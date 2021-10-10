@@ -6,7 +6,7 @@ If this is your first time using Terraform you will need to install it. [Link to
 
 ## Terraform Templates
 ### Google Cloud Platform
-- [Google Cloud Platform Upload Site from Folder](https://github.com/BagelHole/Bagel-Terraform-Templates/tree/main/Bagel-Terraform-GCP-UploadSiteFromFolder)
+- [Google Cloud Platform Upload Site from Folder](https://github.com/BagelHole/Bagel-Terraform-Templates/tree/main/Bagel-Terraform-GCP-Folder-Upload-Site)
 - [Google Cloud Platform Upload Site from GitHub](https://github.com/BagelHole/Bagel-Terraform-Templates/tree/main/Bagel-Terraform-GCP-GitHub-Upload-Site)
 
 ### Amazon Web Services 
