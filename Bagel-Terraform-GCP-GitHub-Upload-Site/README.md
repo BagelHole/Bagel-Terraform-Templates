@@ -89,17 +89,6 @@ variable "region_specific" {
   default     = "us-west2"
 }
 
-variable "url_map" {
-  description = "A reference (self_link) to the url_map resource to use."
-  type        = string
-  default = "name-com-url-map"
-}
-
-variable "folder_path" {
-  type        = string
-  description = "Path to local folder that has website source code"
-  default = "/Users/your_path/folder"
-}
 ````
 Run the below commands in terminal from your source Terraform folder:
 ````bash
