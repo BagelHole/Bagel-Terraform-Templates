@@ -43,13 +43,6 @@ You will need to enable different APIs depending on what Terraform resources you
  export GOOGLE_APPLICATION_CREDENTIALS="your_file.json" 
 ```
 
-- Run command below in terminal to authenticate gsutil:
-
-```bash
- gsutil config
-```
-
-
 ## Usage
 Make sure to change the needed variables in the variables.tf file. 
 
