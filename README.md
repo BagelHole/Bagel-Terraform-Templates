@@ -1,4 +1,4 @@
-# Bagel-Terraform-Templates
+# Bagel-Terraform-Templates <a href="https://www.terraform.io/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/terraformio/terraformio-icon.svg" alt="terraform" width="40" height="40"/></a> 
 This is a collection of Terraform Templates & Resources.
 
 ## Terraform install
@@ -9,7 +9,7 @@ If this is your first time using Terraform you will need to install it. [Link to
 - [Google Cloud Platform Upload Site from Folder](https://github.com/BagelHole/Bagel-Terraform-Templates/tree/main/Bagel-Terraform-GCP-Folder-Upload-Site)
 - [Google Cloud Platform Upload Site from GitHub](https://github.com/BagelHole/Bagel-Terraform-Templates/tree/main/Bagel-Terraform-GCP-GitHub-Upload-Site)
 
-### Amazon Web Services 
+### <a href="https://aws.amazon.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" alt="aws" width="20" height="20"/></a> Amazon Web Services 
 - :warning: Work In Progress 
 
 ## Helpful Resources in Learning Terraform
