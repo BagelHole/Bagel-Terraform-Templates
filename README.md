@@ -5,7 +5,7 @@ This is a collection of Terraform Templates & Resources.
 If this is your first time using Terraform you will need to install it. [Link to install Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli). 
 
 ## Terraform Templates
-### <a href="https://cloud.google.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/></a> Google Cloud Platform
+### <a href="https://cloud.google.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="20" height="20"/></a> Google Cloud Platform
 - [Google Cloud Platform Upload Site from Folder](https://github.com/BagelHole/Bagel-Terraform-Templates/tree/main/Bagel-Terraform-GCP-Folder-Upload-Site)
 - [Google Cloud Platform Upload Site from GitHub](https://github.com/BagelHole/Bagel-Terraform-Templates/tree/main/Bagel-Terraform-GCP-GitHub-Upload-Site)
 
